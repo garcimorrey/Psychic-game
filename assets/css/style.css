@@ -1,0 +1,29 @@
+body {
+    background-color: purple;
+}
+
+h3 {
+    background-color: white;
+    border-radius: 25%;
+    padding: 50px;
+}
+
+#mainbox {
+    margin-top: 2em;
+}
+
+hr {
+    color: white;
+    background: white;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #inputcontent {
+        margin-left: 3.5em;
+    }
+    .col-md-4 {
+        right: 1.6em;
+    }
+}
